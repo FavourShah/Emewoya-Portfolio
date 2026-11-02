@@ -1,0 +1,88 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  box-sizing: border-box;
+  padding-top: env(safe-area-inset-top, 0px);
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: env(safe-area-inset-top, 0px);
+}
+
+body {
+  background-color: #EDEFF1;
+  color: #0B0D10;
+}
+
+@keyframes pulse-opacity {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.3; }
+}
+
+.pl {
+  animation: pulse-opacity 2.6s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .pl {
+    animation: none;
+  }
+  .hc .rv, .hc .fr {
+    transition: none !important;
+  }
+}
+
+/* Hover/Focus reveal card styles */
+.hc {
+  position: relative;
+  overflow: hidden;
+  border-radius: 28px;
+  background: #FFFFFF;
+  outline: none;
+}
+
+.hc:focus-visible {
+  box-shadow: 0 0 0 3px #2B50FF;
+}
+
+.hc .fr {
+  transition: opacity 0.25s ease;
+}
+
+.hc .rv {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  transform: translateY(10px);
+  transition: opacity 0.25s ease, transform 0.25s ease;
+  pointer-events: none;
+  background: #0B0D10;
+  color: #FFFFFF;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+@media (min-width: 640px) {
+  .hc .rv {
+    padding: 32px;
+  }
+}
+
+.hc:hover .rv,
+.hc:focus .rv,
+.hc:focus-within .rv {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+}
+
+.hc:hover .fr,
+.hc:focus .fr {
+  opacity: 0;
+}
+

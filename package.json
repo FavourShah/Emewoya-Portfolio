@@ -1,0 +1,13 @@
+{
+  "name": "portfolio-cms-root",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "pnpm --parallel --filter \"./apps/*\" dev",
+    "build": "pnpm --recursive run build",
+    "test": "pnpm --recursive run test",
+    "lint": "echo \"lint ok\"",
+    "create-admin": "pnpm --filter api create-admin",
+    "seed": "pnpm --filter api seed"
+  }
+}

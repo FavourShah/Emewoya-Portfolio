@@ -1,0 +1,140 @@
+{
+  "settings": {
+    "fullName": "Favour Ezechi-Oriaku",
+    "headline": "Keeps systems up. Builds the ones that aren’t yet.",
+    "subheadline": "IT support, cloud, web development and business analysis. One map, and every node is something I’ve worked with or studied.",
+    "location": "Lagos, Nigeria",
+    "timezone": "Africa/Lagos",
+    "statement": "I don’t just look at what is broken. I look at what can be built to make things work better.",
+    "bio": "I’m Favour. I trained as an electrical and electronics engineer, spent time in broadcast and radio transmission, and now support users by day and build full-stack apps the rest of the time.",
+    "photoPublicId": null,
+    "email": "[EMAIL]",
+    "linkedinUrl": "[LINKEDIN]",
+    "twitterUrl": "[X / TWITTER]",
+    "githubUrl": "[GITHUB]"
+  },
+  "roles": [
+    {
+      "label": "IT SUPPORT",
+      "title": "Keeps people working",
+      "evidence": "40+ users at Hilal Takaful Insurance. Active Directory, Microsoft 365, Sophos, remote support.",
+      "sortOrder": 1
+    },
+    {
+      "label": "CLOUD",
+      "title": "Azure and Microsoft 365",
+      "evidence": "AZ-900 passed, MS-102 in progress. Identity, administration and automation basics.",
+      "sortOrder": 2
+    },
+    {
+      "label": "WEB DEVELOPMENT",
+      "title": "Full-stack web development",
+      "evidence": "React front ends, Express APIs, MongoDB and PostgreSQL, JWT auth and role-based access.",
+      "sortOrder": 3
+    },
+    {
+      "label": "BUSINESS ANALYSIS",
+      "title": "Problem to solution",
+      "evidence": "Understands the operational gap first, then turns it into a practical tool. Payroll and leave workflows.",
+      "sortOrder": 4
+    }
+  ],
+  "mapNodes": [
+    { "label": "Active Directory", "side": "left", "sortOrder": 1 },
+    { "label": "Microsoft 365", "side": "left", "sortOrder": 2 },
+    { "label": "Sophos", "side": "left", "sortOrder": 3 },
+    { "label": "Starlink · LAN/WAN", "side": "left", "sortOrder": 4 },
+    { "label": "Azure", "side": "left", "sortOrder": 5 },
+    { "label": "React", "side": "right", "sortOrder": 1 },
+    { "label": "Node · Express", "side": "right", "sortOrder": 2 },
+    { "label": "MongoDB · PostgreSQL", "side": "right", "sortOrder": 3 },
+    { "label": "JWT · RBAC", "side": "right", "sortOrder": 4 },
+    { "label": "Process improvement", "side": "right", "sortOrder": 5 }
+  ],
+  "journey": [
+    {
+      "label": "FOUNDATION",
+      "title": "B.Eng. Electrical & Electronics",
+      "body": "Second Class Upper · MOUAU Umudike. Broadcast and radio transmission work.",
+      "sortOrder": 1
+    },
+    {
+      "label": "EXPERIENCE",
+      "title": "IT Support & Operations",
+      "body": "Helpdesk for 40+ users at Hilal Takaful Insurance. Before that, IT Manager at Ryan Hotel & Suites.",
+      "sortOrder": 2
+    },
+    {
+      "label": "BUILDING",
+      "title": "Full-stack applications",
+      "body": "MongoDB and PostgreSQL, JWT auth, role-based access and REST APIs, built around real operational problems.",
+      "sortOrder": 3
+    },
+    {
+      "label": "GROWING",
+      "title": "Cloud & identity",
+      "body": "Azure, Microsoft 365 administration, Terraform basics. Philosophy off the clock.",
+      "sortOrder": 4
+    }
+  ],
+  "certGroups": [
+    {
+      "name": "Microsoft",
+      "subtitle": "Azure, Microsoft 365 and IT support",
+      "sortOrder": 1,
+      "items": [
+        { "title": "AZ-900 · Azure Fundamentals", "status": "passed", "credentialUrl": null, "sortOrder": 1 },
+        { "title": "MS-102 · Microsoft 365 Administrator", "status": "in_progress", "credentialUrl": null, "sortOrder": 2 },
+        { "title": "Microsoft IT Support Specialist Professional Certificate", "status": "in_progress", "credentialUrl": null, "sortOrder": 3 }
+      ]
+    },
+    {
+      "name": "Google",
+      "subtitle": "IT support fundamentals",
+      "sortOrder": 2,
+      "items": [
+        { "title": "Google IT Support Professional Certificate", "status": "in_progress", "credentialUrl": null, "sortOrder": 1 },
+        { "title": "Next up · [NEXT CERT]", "status": "planned", "credentialUrl": null, "sortOrder": 2 }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "slug": "payroll-management-system",
+      "title": "Payroll Management System",
+      "tagLine": "MERN · JWT · RBAC",
+      "problem": "[CONFIRM] Payroll done by hand is slow to calculate, and records and payslips end up scattered.",
+      "solves": "Employee records, salary runs and payslip generation in one workflow, with access limited by role.",
+      "stackBrief": "React, Node, Express and MongoDB keep it one language end to end. JWT and role-based access mean admins and staff only see what they should. PDF generation produces the payslips.",
+      "media": [
+        { "publicId": "", "alt": "[SCREENSHOT 1]" },
+        { "publicId": "", "alt": "[SCREENSHOT 2]" },
+        { "publicId": "", "alt": "[SCREENSHOT 3]" }
+      ],
+      "tags": ["React", "Node", "Express", "MongoDB", "JWT", "RBAC", "PDF"],
+      "sortOrder": 1
+    },
+    {
+      "slug": "leave-management-system",
+      "title": "Leave Management System",
+      "tagLine": "[CONFIRM STACK] · JWT · RBAC",
+      "problem": "[CONFIRM] Leave requests and balances tracked informally, so approvals are slow and history is unclear.",
+      "solves": "[CONFIRM] Requests, approvals and balances in one place for staff and managers.",
+      "stackBrief": "[STACK] and [WHY]. Role-based access so requesters and approvers see different views.",
+      "media": [
+        { "publicId": "", "alt": "[SCREENSHOT 1]" },
+        { "publicId": "", "alt": "[SCREENSHOT 2]" },
+        { "publicId": "", "alt": "[SCREENSHOT 3]" }
+      ],
+      "tags": ["JWT", "RBAC"],
+      "sortOrder": 2
+    }
+  ],
+  "teaserCount": 3,
+  "latestPost": {
+    "url": "[LINKEDIN POST URL]",
+    "excerpt": "[LATEST POST EXCERPT]",
+    "postedOn": "2026-11-01"
+  }
+}
+
